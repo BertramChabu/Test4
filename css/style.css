@@ -6,16 +6,12 @@ body{
 *{
     box-sizing: border-box;
 }
-h2{
-    color: chocolate;
-    text-transform: uppercase;
-    font-style: italic;
-    text-align: left;
-}
 
 .topnav{
     background-color: rgb(210, 126, 126);
+    overflow: hidden;
 }
+
 .topnav a{
     color: azure;
     text-decoration: none;
@@ -25,19 +21,20 @@ h2{
     text-align: left;
 }
 
-.topnav-right{
-    float: right;
-}
 .topnav a:hover{
     color: #d5c6c6;
+    background-color: azure;
     text-decoration: none;
+}
+
+.topnav-right{
+    float: right;
 }
 
 .banner{
     background-color: rgba(20, 20, 80, 20%) ;
-        float: left;
-        width: 60%;
-        padding: 20%;
+    width: 60%;
+    padding: 20%;
 }
 
 .row:after{
@@ -59,7 +56,10 @@ h2{
 }
 
 .footer{
-    background-color: rgba(20, 20, 80, 20%) ;
+    background-color: rgba(45, 75, 89, 20%);
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8em;
 }
 
 table{
@@ -85,11 +85,18 @@ th{
 tr:nth-child(odd){
     background-color: antiquewhite;
 }
+
 tr:hover{
     background-color:rgb(178, 147, 108);
 }
 
-h1{
+h2{
+    color: chocolate;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+h4{
     text-align: center; 
     color: black; 
     font-weight: bold; 
