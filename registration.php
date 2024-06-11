@@ -65,7 +65,6 @@
         Content
       </div>
     
-      <div class="footer">
-        Copyright &copy; BBIT 2.1 - All rights reserved.
+      <?php include_once ("templates/footer.php");?>
 </body>
 </html>

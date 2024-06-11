@@ -18,5 +18,7 @@
             <th>Address</th>
         </tr>
     </table>
+
+    <?php include_once ("templates/footer.php");?>
 </body>
 </html>
