@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="index.html">Home</a> | <a href="about.html">About Us</a> | <a href="people.html"></a> | <a href="registration.html">Registration</a>
+<?php include_once ("templates/nav.php");?>
     <h1>People</h1>
 
     <table cellpadding="5px" border="1px" style="border: 1px solid #373737;" style="border-collapse: collapse;">
