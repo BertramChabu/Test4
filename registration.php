@@ -1,6 +1,6 @@
-<?php include_once ("templates/heading.php");?>
+<?php include_once ("template/heading.php");?>
 <body>
-    <?php include_once ("templates/nav.php");?>
+    <?php include_once ("template/nav.php");?>
    <div class="banner">
     <h1>Forms</h1>
 </div>
@@ -57,6 +57,6 @@
         Content
       </div>
     
-      <?php include_once ("templates/footer.php");?>
+      <?php include_once ("template/footer.php");?>
 </body>
 </html>
